@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel de imagens</title>
+    <link rel="stylesheet" href="../aula01/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="d-flex flex-column align-items-center" style="padding: 8%;">
+    <div id="carouselExample" class="carousel slide w-75" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block carousel-img" src="https://cdn.pixabay.com/photo/2024/09/19/11/34/mountain-9058566_640.jpg"
+                    alt="Imagem 1">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block carousel-img" src="https://cdn.pixabay.com/photo/2024/03/21/14/36/forest-8647829_640.jpg"
+                    alt="Imagem 2">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block carousel-img" src="https://cdn.pixabay.com/photo/2024/07/25/08/47/flower-8920535_640.jpg"
+                    alt="Imagem 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container my-5 text-center">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
+                <div class="card text-bg-dark" style="width: 18rem;">
+                    <img class="card-img-top" src="https://via.placeholder.com/100x100" alt="Imagem Card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iste,
+                            eaque esse nam voluptatem, rem accusamus debitis dolore.</p>
+                        <a href="#" class="btn btn-primary">Clique aqui</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
+                <div class="card text-bg-dark" style="width: 18rem;">
+                    <img class="card-img-top" src="https://via.placeholder.com/100x100" alt="Imagem Card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vel tenetur
+                            dolorem explicabo, veniam fugiat excepturi maxime rgert.</p>
+                        <a href="#" class="btn btn-primary">Clique aqui</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-center">
+                <div class="card text-bg-dark" style="width: 18rem;">
+                    <img class="card-img-top" src="https://via.placeholder.com/100x100" alt="Imagem Card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 3</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio beatae
+                            neque laudantium sunt, enim labore sint adipisci sdgfsdfgfg.</p>
+                        <a href="#" class="btn btn-primary">Clique aqui</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../aula01/lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
